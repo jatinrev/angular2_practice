@@ -34,7 +34,7 @@ const HEROES: Hero[] = [
             <div><label>Name: </label>{{ selectedHero.name }}</div>
             <div>
                 <label>Name: </label>
-                <input ([ngModel])="selectedHero.name" placeholder="name">
+                <input [(ngModel)]="selectedHero.name" placeholder="name">
             </div>
         </div>
     `,
